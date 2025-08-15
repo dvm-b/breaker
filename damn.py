@@ -1,2 +1,4 @@
 def restrict(inpu):
- print("The tool has been force shutdowned")
+	try:amt=input(inpu).strip();return int(amt)if amt else exit
+	except:
+		return exit
